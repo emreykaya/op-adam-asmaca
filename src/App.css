@@ -1,0 +1,82 @@
+.App {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #8eb9ce;
+  color: white;
+  font-weight: bolder;
+  transition: all 200ms ease-in-out;
+}
+
+.button:hover {
+  background-color: #324c58;
+}
+
+.button-area {
+  margin-top: 15px;
+}
+
+.question {
+  font-size: 22px;
+  border-bottom: 2px solid #ddd;
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.question:hover {
+  background-color: #F44336;
+  color: #ddd;
+  border-bottom: 2px solid #850b02;
+
+}
+
+.question-area{
+  margin: 0 5px;
+  height: 60px;
+}
+
+.question-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.question-top {
+  margin-bottom: 20px;
+}
+
+.empty-message {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.end-game .end-btn {
+  height: 30px;
+  width: auto;
+  background-color: #8eb9ce;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.end-game .end-btn:hover {
+  background-color: #324c58;
+}
